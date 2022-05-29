@@ -61,6 +61,17 @@ a:hover {
     border-left: 10px solid #e6500f;
 }
 
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+footer img {
+    height: 32px;
+}
+footer a {
+    margin: 8px;
+}
+
 @media all and (orientation:portrait) {
     nav {
         grid-template-columns: auto;
