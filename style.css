@@ -34,10 +34,7 @@ h3 {
 }
 .link-block {
     display: grid;
-    grid-template-columns: 30px auto;
-    border-style: solid;
-    border-color: #e6500f;
-    border-width: 1px;
+    grid-template-columns: 15px auto;
     align-items: center;
 }
 a {
@@ -59,9 +56,9 @@ a:hover {
     display: block;
     width: 0;
     height: 0;
-    border-top: 16px solid transparent;
-    border-bottom: 16px solid transparent;
-    border-left: 16px solid #e6500f;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 10px solid #e6500f;
 }
 
 @media all and (orientation:portrait) {
