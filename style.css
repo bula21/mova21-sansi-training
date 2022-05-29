@@ -1,0 +1,74 @@
+/* blue: #55c0ff */
+/* orange: #e6500f */
+/* yellow: #ffee00 */
+html {
+    background-color: #55c0ff;
+    font-family: 'Martel Sans', sans-serif;
+}
+body {
+    margin: 20 px;
+}
+nav {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+nav div {
+    padding: 0px;
+}
+h1, h2, h3 {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+h1 {
+    grid-column: 1 / 4;
+}
+h3 {
+    margin-bottom: 0;
+}
+.link-canvas {
+    background-color: white;
+    padding: 10px;
+}
+.link-block {
+    display: grid;
+    grid-template-columns: 30px auto;
+    border-style: solid;
+    border-color: #e6500f;
+    border-width: 1px;
+    align-items: center;
+}
+a {
+    color: black;
+    vertical-align:middle;
+}
+a:hover {
+    color: #e6500f;
+}
+.action {
+    color: #e6500f;
+    line-height: 1;
+    font-size: 30px;
+    margin-right: 6px;
+    vertical-align:middle;
+}
+
+.triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-left: 16px solid #e6500f;
+}
+
+@media all and (orientation:portrait) {
+    nav {
+        grid-template-columns: auto;
+    }
+    h1 {
+        grid-column: 1 / 2;
+    }
+}
