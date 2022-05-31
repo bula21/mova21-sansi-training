@@ -15,29 +15,29 @@ const courses = {
     ],
     'fr': [
         {
-            file: 'fr-schulung-allgemein-1983',
+            file: 'schulung-allgemein-1983',
             name: 'TODO (Allgemein)'
         },
         {
-            file: 'fr-schulung-sanitat-bula-mobile-einheiten-2019',
+            file: 'schulung-sanitat-bula-mobile-einheiten-2019',
             name: 'TODO (Mobile Einheiten)'
         },
         {
-            file: 'fr-schulung-sanitat-notfallpraxis-und-sanitatsposten-1985',
+            file: 'schulung-sanitat-notfallpraxis-und-sanitatsposten-1985',
             name: 'TODO (Notfallpraxis und Sanitätsposten)'
         },
     ],
     'it': [
         {
-            file: 'it-schulung-allgemein-1984',
+            file: 'schulung-allgemein-1984',
             name: 'TODO (Allgemein)'
         },
         {
-            file: 'it-schulung-sanitat-bula-mobile-einheiten-1979',
+            file: 'schulung-sanitat-bula-mobile-einheiten-1979',
             name: 'TODO (Mobile Einheiten)'
         },
         {
-            file: 'it-schulung-sanitat-notfallpraxis-und-sanitatsposten-2028',
+            file: 'schulung-sanitat-notfallpraxis-und-sanitatsposten-2028',
             name: 'TODO (Notfallpraxis und Sanitätsposten)'
         },
     ]
